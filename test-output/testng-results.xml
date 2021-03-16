@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Etsy Test Page" duration-ms="15055" started-at="2021-02-20T13:44:40 CST" finished-at="2021-02-20T13:44:55 CST">
+    <groups>
+    </groups>
+    <test name="Etsy search Test" duration-ms="15055" started-at="2021-02-20T13:44:40 CST" finished-at="2021-02-20T13:44:55 CST">
+      <class name="selenium.testng.EtsyParameter">
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenium.testng.EtsyParameter@4c70fda8]" name="setup" is-config="true" duration-ms="5365" started-at="2021-02-20T13:44:40 CST" finished-at="2021-02-20T13:44:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:selenium.testng.EtsyParameter@4c70fda8]" name="login" duration-ms="9530" started-at="2021-02-20T13:44:46 CST" finished-at="2021-02-20T13:44:55 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java programming mug]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- selenium.testng.EtsyParameter -->
+    </test> <!-- Etsy search Test -->
+  </suite> <!-- Etsy Test Page -->
+</testng-results>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Data Test">
+    <test name="data test">
+        <parameter name="username" value="Admin"></parameter>
+        <parameter name="password" value="Admin123"></parameter>
+        <classes>
+            <class name="selenium.testng.OpenMRs"></class>
+        </classes>
+    </test>
+</suite>
