@@ -7,6 +7,7 @@ public class ModifierTest{
 ////        md.printout;
         int  number=10;
         md.sum(number);
+        System.out.print("Hello from Git");
         System.out.println(number);
         System.out.println(md.name);
     }
